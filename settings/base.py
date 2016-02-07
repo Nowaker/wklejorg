@@ -102,6 +102,7 @@ INSTALLED_APPS = [
     'south',
     'pagination',
     'raven.contrib.django',
+    # 'gunicorn', # use in production: python2 ./manage.py run_gunicorn
 
     # Project specific
     'wklej',
